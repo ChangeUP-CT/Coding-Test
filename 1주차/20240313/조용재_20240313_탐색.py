@@ -17,13 +17,24 @@ for i in graph:
     i.sort()
 
 def dfs(graph, V, visited):
+    '''
+    :param graph: 그래프 맵
+    :param V: 시작 인덱스
+    :param visited: 방문 기록
+    재귀를 통해 방문 안했으면 계속 탐색
+    '''
     print(V , end=' ')
     visited[V] = 1
     for node in graph[V]:
         if not visited[node]:
             dfs(graph, node, visited)
 def bfs(graph, V, visited):
-
+    '''
+    :param graph: 그래프 맵
+    :param V: 시작 노드
+    :param visited: 방문 기록
+    방문하지 않은 노드라면 큐에 넣고 큐가 빌떄까지 반복
+    '''
     que = deque()
     que.append(V)
     visited[V] = 1
