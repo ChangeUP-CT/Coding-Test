@@ -1,5 +1,13 @@
 # Coding-Test
 체인지업 코테 스터디
+### 주차별 과제
+- 2주차 문제: https://school.programmers.co.kr/learn/courses/30/lessons/92343
+- 3주차 문제:
+- 4주차 문제:
+- 5주차 문제:
+- 6주차 문제:
+
+  
 **올리기 전에 먼저 pull 받고 본인 코드 add/commit/push해주세요!**
 ```
 # git clone <주소> 하고 시작
