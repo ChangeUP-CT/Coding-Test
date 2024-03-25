@@ -2,7 +2,7 @@
 체인지업 코테 스터디
 ### 주차별 과제
 - 2주차 문제: https://school.programmers.co.kr/learn/courses/30/lessons/92343
-- 3주차 문제:
+- 3주차 문제: https://school.programmers.co.kr/learn/courses/30/lessons/150366
 - 4주차 문제:
 - 5주차 문제:
 - 6주차 문제:
