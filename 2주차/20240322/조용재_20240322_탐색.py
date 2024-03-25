@@ -2,12 +2,14 @@
 # 모든 간선의 가중치가 같은 경우에는 BFS를 사용해보자
 from collections import deque
 
+# 노드/엣지/목표/출발
 n,m,k,x = map(int, input().split())
 graph = [[] for _ in range(n+1)]
 
 for _ in range(m):
     a, b = map(int, input().split())
     graph[a].append(b)
+
 # 모든 도시에 대한 최단 거리 -1로 초기화
 distance = [-1] * (n+1)
 distance[x] = 0
